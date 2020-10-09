@@ -3,7 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Drake Tribute Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/Style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="C:\Users\abuba\OneDrive\Desktop\Tripute Page\js\jquery.js"></script>
+    <script type="text/javascript" src="C:\Users\abuba\OneDrive\Desktop\Tripute Page\js\cycle2.js"></script>
+
+
   </head>
   <body>
     <div>
@@ -46,7 +54,40 @@
 
        </div>
 
-      <p>More about Drake <a href="https://en.wikipedia.org/wiki/Drake_(musician)" target="_blank">Wikipedia</a></p>
+       <div class="cycle-slideshow">
+
+         <img src="../Images/drake1.jpg" alt="" height="300" width="250">
+         <img src="../Images/drake2.jpg" alt="" height="300" width="250">
+         <img src="../Images/drake3.jpg" alt="" height="300" width="250">
+
+         <!--<video src="..Videos/Drake - God's Plan.mp4" autoplay poster="../Images/drake1.jpg" controls></video>
+         <video src="..Videos/Drake - Toosie Slide (Official Music Video).mp4" autoplay poster="../Images/drake2.jpg" controls></video> -->
+
+       </div>
+
+       <div class="videos">
+
+
+      <div class="vid">
+          <video class="godsplan" width="730" height="410" controls autoplay>
+            <source src="../Videos/Drake - God's Plan.mp4" type="video/mp4">
+          </video>
+      </div>
+
+
+      <div class="vid">
+          <video class="toosie" width="730" height="410" controls autoplay>
+            <source src="../Videos/Drake - Toosie Slide (Official Music Video).mp4" type="video/mp4">
+          </video>
+      </div>
+
+
+      </div>
+
+          <!-- <iframe class="iframe1" width="420" height="315" src="https://www.youtube.com/embed/T9poyFr1ksI" frameborder="0" allowfullscreen></iframe> -->
+
+      <button type="button" class="btn btn-primary"><a href="https://en.wikipedia.org/wiki/Drake_(musician)" target="_blank">More about</a></button>
+    <!--  <p>More about Drake <a href="https://en.wikipedia.org/wiki/Drake_(musician)" target="_blank">Wikipedia</a></p> -->
 
   </body>
 </html>
