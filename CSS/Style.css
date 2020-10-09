@@ -1,3 +1,6 @@
+body{
+  background-color: #c0dbe2;
+}
 div img{
   float: none;
   }
@@ -35,4 +38,38 @@ div img{
   flex: 1;
   flex-basis: 31%;
 
+}
+
+.videos{
+  max-width: 1500px;
+  margin: 40px auto 0 auto;
+  line-height: 1.6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vid{
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex: 1;
+  flex-basis: 50%;
+}
+
+.btn-primary{
+  margin-left: 50%;
+  height: 40px;
+}
+
+.btn-primary:hover{
+  background-color: white;
+}
+
+a{
+  color:white;
+}
+
+a:hover{
+  color: #007bff;
+  text-decoration: none;
 }
