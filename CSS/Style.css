@@ -1,9 +1,19 @@
 body{
   background-color: #c0dbe2;
 }
-div img{
-  float: none;
+
+/* Image */
+.drakeimg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
   }
+
+/* Main content */
 .about{
   max-width: 1500px;
   margin: 40px auto 0 auto;
@@ -13,33 +23,17 @@ div img{
 
   }
 
-.div1{
+.text{
   padding: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
   flex: 1;
   flex-basis: 31%;
+  font-size: 16px;
 
 }
 
-.div2{
-  padding: 20px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  flex: 1;
-  flex-basis: 31%;
-
-}
-
-.div3{
-  padding: 20px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  flex: 1;
-  flex-basis: 31%;
-
-}
-
+/* Videos */
 .videos{
   max-width: 1500px;
   margin: 40px auto 0 auto;
@@ -55,21 +49,39 @@ div img{
   flex: 1;
   flex-basis: 50%;
 }
-
+/* Button */
 .btn-primary{
-  margin-left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: block;
   height: 40px;
+
 }
 
 .btn-primary:hover{
   background-color: white;
+  border-color: white;
 }
 
 a{
   color:white;
+  font-family: serif;
+  font-size: 16px;
+
 }
 
-a:hover{
+.btn-primary:hover a{
   color: #007bff;
   text-decoration: none;
+}
+
+/* Footer */
+.footer{
+  height: 50px;
+  width: 100%;
+  background-color: #52606e;
+  color: #969696;
+  text-align: center;
+  padding-top: 15px;
 }
