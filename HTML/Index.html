@@ -6,21 +6,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/Style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="C:\Users\abuba\OneDrive\Desktop\Tripute Page\js\jquery.js"></script>
-    <script type="text/javascript" src="C:\Users\abuba\OneDrive\Desktop\Tripute Page\js\cycle2.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
   </head>
   <body>
+<!-- the image at the top of the page -->
     <div>
-
-      <img src="https://bit.ly/3kw6Gno" alt="Drake Image">
+      <img class="drakeimg" src="../Images/drake3.jpg" alt="Drake Image">
     </div>
 
+<!-- Main content -->
     <div class="about">
-      <div class="div1">
+      <div class="text">
 
          <p> <strong> Aubrey Drake Graham </strong> (born 24th october, 1986) is a Canadian rapper, singer, songwriter, actor, record producer, and entrepreneur.
             A prominent figure in popular music, Drake is widely credited for popularizing the Toronto sound to the music industry.
@@ -28,7 +26,7 @@
             He released two further independent projects, Comeback Season and So Far Gone, before signing to Young Money Entertainment in June 2009..</p>
       </div>
 
-      <div class="div2">
+      <div class="text">
 
             <p>Drake released his debut studio album Thank Me Later in 2010, which debuted at number one on the US Billboard 200.
               He achieved back-to-back widespread critical successes with his next two albums Take Care (2011) and Nothing Was the Same (2013).
@@ -41,53 +39,39 @@
             </p>
         </div>
 
-        <div class="div3">
-
-
+        <div class="text">
               <p>
               In 2016, Drake was announced as the new "global ambassador" for the Toronto Raptors, thereby joining the executive committee of the NBA franchise.
               In the same year, Drake announced his development with American entrepreneur Brent Hocking of the bourbon whiskey Virginia Black; it eventually broke sale records in Canada.
               In 2018, Drake was reportedly responsible for 5% (CAD$440 million) of Toronto's CAD$8.8 billion total annual tourism income.</p>
-
         </div>
 
-
        </div>
 
-       <div class="cycle-slideshow">
-
-         <img src="../Images/drake1.jpg" alt="" height="300" width="250">
-         <img src="../Images/drake2.jpg" alt="" height="300" width="250">
-         <img src="../Images/drake3.jpg" alt="" height="300" width="250">
-
-         <!--<video src="..Videos/Drake - God's Plan.mp4" autoplay poster="../Images/drake1.jpg" controls></video>
-         <video src="..Videos/Drake - Toosie Slide (Official Music Video).mp4" autoplay poster="../Images/drake2.jpg" controls></video> -->
-
-       </div>
-
+<!-- Videos -->
        <div class="videos">
 
+            <div class="vid">
+                <video class="godsplan" width="730" height="410" controls autoplay>
+                  <source src="../Videos/Drake - God's Plan.mp4" type="video/mp4">
+                </video>
+            </div>
 
-      <div class="vid">
-          <video class="godsplan" width="730" height="410" controls autoplay>
-            <source src="../Videos/Drake - God's Plan.mp4" type="video/mp4">
-          </video>
-      </div>
-
-
-      <div class="vid">
-          <video class="toosie" width="730" height="410" controls autoplay>
-            <source src="../Videos/Drake - Toosie Slide (Official Music Video).mp4" type="video/mp4">
-          </video>
-      </div>
-
+            <div class="vid">
+                <video class="toosie" width="730" height="410" controls poster="../Images/drake3.jpg">
+                  <source src="../Videos/Drake - Toosie Slide (Official Music Video).mp4" type="video/mp4">
+                </video>
+            </div>
 
       </div>
-
-          <!-- <iframe class="iframe1" width="420" height="315" src="https://www.youtube.com/embed/T9poyFr1ksI" frameborder="0" allowfullscreen></iframe> -->
-
+      
+      <!-- Button -->
       <button type="button" class="btn btn-primary"><a href="https://en.wikipedia.org/wiki/Drake_(musician)" target="_blank">More about</a></button>
-    <!--  <p>More about Drake <a href="https://en.wikipedia.org/wiki/Drake_(musician)" target="_blank">Wikipedia</a></p> -->
+
+    <!-- Footer -->
+      <div class="footer">
+        &copy; Jensen Norra | Designed by Abubakar Abdulkader
+      </div>
 
   </body>
 </html>
