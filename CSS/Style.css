@@ -3,7 +3,7 @@ body{
 }
 
 /* Image */
-.drakeimg{
+.drakeimg{ /* Centering the image at the top of the page and giving it height and width and border radius */
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -14,7 +14,7 @@ body{
   }
 
 /* Main content */
-.about{
+.about{ /* giving main content max width */
   max-width: 1500px;
   margin: 40px auto 0 auto;
   line-height: 1.6;
@@ -23,7 +23,7 @@ body{
 
   }
 
-.text{
+.text{ /* giving the text some padding, I have 3 div that contains text on my page and every div is taking 1/3 of the space of main content div which has max width of 1500px */
   padding: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
@@ -34,15 +34,14 @@ body{
 }
 
 /* Videos */
-.videos{
+.videos{ /* I did same as main content */
   max-width: 1500px;
   margin: 40px auto 0 auto;
-  line-height: 1.6;
   display: flex;
   justify-content: space-between;
 }
 
-.vid{
+.vid{ /* I did same as text */
   padding: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
@@ -50,7 +49,7 @@ body{
   flex-basis: 50%;
 }
 /* Button */
-.btn-primary{
+.btn-primary{ /* centering the button */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -59,7 +58,7 @@ body{
 
 }
 
-.btn-primary:hover{
+.btn-primary:hover{ /* changing the color of the button on hover */
   background-color: white;
   border-color: white;
 }
@@ -71,13 +70,13 @@ a{
 
 }
 
-.btn-primary:hover a{
+.btn-primary:hover a{ /* changing the color of the text inside the button on hover */
   color: #007bff;
   text-decoration: none;
 }
 
 /* Footer */
-.footer{
+.footer{ /* giving the footer height, width and backgroung color... */
   height: 50px;
   width: 100%;
   background-color: #52606e;
